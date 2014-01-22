@@ -1,3 +1,3 @@
 <div class="pagination">
-	<?php canvas_pagination(); ?>
+	<?php weaver_pagination(); ?>
 </div>
