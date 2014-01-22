@@ -2,7 +2,7 @@
 
 	<section id="main-content" role="main">
 	
-		<h1><?php _e( 'Archives', 'canvas' ); ?></h1>
+		<h1><?php _e( 'Archives', 'weaver' ); ?></h1>
 		
 			<h2>Search Archives:</h2>
 			<?php get_template_part('searchform'); ?>

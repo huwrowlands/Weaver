@@ -86,7 +86,7 @@ function canvas_theme_support()  {
 	add_theme_support( 'html5', $markup );	
 
 	// Add theme support for Translation
-	//load_theme_textdomain( 'canvas', get_template_directory() . '/library/languages' );	
+	//load_theme_textdomain( 'weaver', get_template_directory() . '/library/languages' );	
 }
 
 // Hook into the 'after_setup_theme' action
@@ -151,8 +151,8 @@ add_action( 'wp_enqueue_scripts', 'canvas_styles' );
 function canvas_navigation_menus() {
 
 	$locations = array(
-		'header_menu' => __( 'Header Menu', 'canvas' ),
-		//'footer_menu' => __( 'Footer Menu', 'canvas' ),
+		'header_menu' => __( 'Header Menu', 'weaver' ),
+		//'footer_menu' => __( 'Footer Menu', 'weaver' ),
 	);
 	register_nav_menus( $locations );
 
@@ -205,8 +205,8 @@ function canvas_sidebar()  {
 
 	$args = array(
 		'id'            => 'primary_sidebar',
-		'name'          => __( 'Primary Sidebar', 'canvas' ),
-		'description'   => __( 'Main Sidebar for posts and pages.', 'canvas' ),
+		'name'          => __( 'Primary Sidebar', 'weaver' ),
+		'description'   => __( 'Main Sidebar for posts and pages.', 'weaver' ),
 		'class'         => 'widget',
 		'before_title'  => '<h2 class="widgettitle">',
 		'after_title'   => '</h2>',
@@ -217,8 +217,8 @@ function canvas_sidebar()  {
 
 	$args = array(
 		'id'            => 'secondary_sidebar',
-		'name'          => __( 'Secondary Sidebar', 'canvas' ),
-		'description'   => __( 'Secondary Sidebar for posts and pages.', 'canvas' ),
+		'name'          => __( 'Secondary Sidebar', 'weaver' ),
+		'description'   => __( 'Secondary Sidebar for posts and pages.', 'weaver' ),
 		'class'         => 'widget',
 		'before_title'  => '<h2 class="widgettitle">',
 		'after_title'   => '</h2>',
@@ -284,13 +284,13 @@ function canvas_comments_callback($comment, $args, $depth)
 					<?php printf(__('<cite class="fn">%s</cite> <span class="says">said on</span>'), get_comment_author_link()) ?>
 					<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
 					<?php
-						printf( __('%1$s at %2$s', 'canvas'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)', 'canvas'),'  ','' );
+						printf( __('%1$s at %2$s', 'weaver'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)', 'weaver'),'  ','' );
 					?>
 			</div>				
 		</div>
 			
 		<?php if ($comment->comment_approved == '0') : ?>
-			<em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.', 'canvas') ?></em>
+			<em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.', 'weaver') ?></em>
 				<br />
 		<?php endif; ?>
 

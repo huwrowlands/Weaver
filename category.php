@@ -2,7 +2,7 @@
 
 	<section id="main-content" role="main">
 	
-		<h1><?php _e( 'Category Archive for:', 'canvas' ); ?> <?php single_cat_title( $prefix = '', $display = true );?></h1>
+		<h1><?php _e( 'Category Archive for:', 'weaver' ); ?> <?php single_cat_title( $prefix = '', $display = true );?></h1>
 	
 		<?php get_template_part('loop'); ?>
 		

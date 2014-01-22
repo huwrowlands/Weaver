@@ -3,7 +3,7 @@
 	<!-- section -->
 	<section id="main-content" role="main">
 	
-		<h1><?php _e( 'Tag Archive: ', 'canvas' ); echo single_tag_title('', false); ?></h1>
+		<h1><?php _e( 'Tag Archive: ', 'weaver' ); echo single_tag_title('', false); ?></h1>
 	
 		<?php get_template_part('loop'); ?>
 		

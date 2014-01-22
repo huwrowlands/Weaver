@@ -2,7 +2,7 @@
 
 	<?php if (post_password_required()) : ?>
 	
-		<p><?php _e( 'This Post is password protected. Enter the password to view any comments.', 'canvas' ); ?></p>
+		<p><?php _e( 'This Post is password protected. Enter the password to view any comments.', 'weaver' ); ?></p>
 
 	<?php return; endif; ?>
 
@@ -14,7 +14,7 @@
 		
 	<?php elseif ( ! comments_open() && ! is_page() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
 
-	<p><?php _e( 'Sorry, Comments are closed here.', 'canvas' ); ?></p>
+	<p><?php _e( 'Sorry, Comments are closed here.', 'weaver' ); ?></p>
 	
 <?php endif; ?>
 

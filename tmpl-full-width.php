@@ -19,7 +19,7 @@
 			<?php endwhile; else: ?>
 			
 			<article>
-				<h2 class="page-title"><?php _e( 'Sorry, nothing found.', 'canvas' ); ?></h2>
+				<h2 class="page-title"><?php _e( 'Sorry, nothing found.', 'weaver' ); ?></h2>
 			</article>	
 		
 		<?php endif; ?>
