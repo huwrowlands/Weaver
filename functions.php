@@ -31,7 +31,7 @@ if ( ! isset( $content_width ) )
 	$content_width = 960;
 
 // Register Theme Features
-function canvas_theme_support()  {
+function weaver_theme_support()  {
 
   // Add Menu Support
   add_theme_support('menus');
@@ -90,7 +90,7 @@ function canvas_theme_support()  {
 }
 
 // Hook into the 'after_setup_theme' action
-add_action( 'after_setup_theme', 'canvas_theme_support' );
+add_action( 'after_setup_theme', 'weaver_theme_support' );
 
 
 
@@ -99,7 +99,7 @@ add_action( 'after_setup_theme', 'canvas_theme_support' );
 \*------------------------------------*/
 
 // Register Script/s
-function canvas_scripts() {
+function weaver_scripts() {
 
 	if (!is_admin()) {
 
@@ -116,15 +116,15 @@ function canvas_scripts() {
 	  wp_register_script('flauntJS', get_template_directory_uri() . '/library/js/flaunt-ck.js', array(), '1.0.0', true); // Custom scripts
 	  wp_enqueue_script('flauntJS'); // Enqueue it!
 	  	
-	  wp_register_script('canvas_scripts', get_template_directory_uri() . '/library/js/scripts-ck.js', array(), '1.0.0', true); // Custom scripts
-	  wp_enqueue_script('canvas_scripts'); // Enqueue it!
+	  wp_register_script('weaver_scripts', get_template_directory_uri() . '/library/js/scripts-ck.js', array(), '1.0.0', true); // Custom scripts
+	  wp_enqueue_script('weaver_scripts'); // Enqueue it!
   
   }
         
 }
 
 // Hook into the 'wp_enqueue_scripts' action
-add_action( 'wp_enqueue_scripts', 'canvas_scripts' );
+add_action( 'wp_enqueue_scripts', 'weaver_scripts' );
 
 
 /*------------------------------------*\
@@ -132,7 +132,7 @@ add_action( 'wp_enqueue_scripts', 'canvas_scripts' );
 \*------------------------------------*/
 
 // Register Style
-function canvas_styles() {
+function weaver_styles() {
 
 	wp_register_style( 'styles', get_template_directory_uri() . '/library/css/styles.css', false, '0.0.1', 'all' );
 	wp_enqueue_style( 'styles' );
@@ -140,7 +140,7 @@ function canvas_styles() {
 }
 
 // Hook into the 'wp_enqueue_scripts' action
-add_action( 'wp_enqueue_scripts', 'canvas_styles' );
+add_action( 'wp_enqueue_scripts', 'weaver_styles' );
 
 
 /*------------------------------------*\
@@ -148,7 +148,7 @@ add_action( 'wp_enqueue_scripts', 'canvas_styles' );
 \*------------------------------------*/
 
 // Register Navigation Menus
-function canvas_navigation_menus() {
+function weaver_navigation_menus() {
 
 	$locations = array(
 		'header_menu' => __( 'Header Menu', 'weaver' ),
@@ -159,10 +159,10 @@ function canvas_navigation_menus() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'canvas_navigation_menus' );
+add_action( 'init', 'weaver_navigation_menus' );
 
 // HTML5 Blank navigation
-function canvas_nav()
+function weaver_nav()
 {
 	wp_nav_menu(
 	array(
@@ -187,13 +187,13 @@ function canvas_nav()
 }
 
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
-function canvas_nav_menu_args($args = '')
+function weaver_nav_menu_args($args = '')
 {
     $args['container'] = false;
     return $args;
 }
 
-add_filter('wp_nav_menu_args', 'canvas_nav_menu_args'); // Remove surrounding <div> from WP Navigation
+add_filter('wp_nav_menu_args', 'weaver_nav_menu_args'); // Remove surrounding <div> from WP Navigation
 
 
 /*------------------------------------*\
@@ -201,7 +201,7 @@ add_filter('wp_nav_menu_args', 'canvas_nav_menu_args'); // Remove surrounding <d
 \*------------------------------------*/
 
 // Register Sidebar
-function canvas_sidebar()  {
+function weaver_sidebar()  {
 
 	$args = array(
 		'id'            => 'primary_sidebar',
@@ -230,7 +230,7 @@ function canvas_sidebar()  {
 }
 
 // Hook into the 'widgets_init' action
-add_action( 'widgets_init', 'canvas_sidebar' );
+add_action( 'widgets_init', 'weaver_sidebar' );
 
 
 /*------------------------------------*\
@@ -247,7 +247,7 @@ function enable_threaded_comments()
     }
 }
 
-function canvas_comments_callback($comment, $args, $depth)
+function weaver_comments_callback($comment, $args, $depth)
 {
 	$GLOBALS['comment'] = $comment;
 	extract($args, EXTR_SKIP);
@@ -345,7 +345,7 @@ add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (S
 
 
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
-function canvas_pagination()
+function weaver_pagination()
 {
     global $wp_query;
     $big = 999999999;
@@ -358,14 +358,14 @@ function canvas_pagination()
     ));
 }
 
-add_action('init', 'canvas_pagination'); // Add our Pagination
+add_action('init', 'weaver_pagination'); // Add our Pagination
 
 
 // Editor Styles
-function canvas_add_editor_styles() {
+function weaver_add_editor_styles() {
     add_editor_style( '/library/css/editor-styles.css' );
 }
-add_action( 'init', 'canvas_add_editor_styles' );
+add_action( 'init', 'weaver_add_editor_styles' );
 
 
 //WooCommerce Theme Support
