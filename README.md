@@ -1,4 +1,4 @@
-blank-canvas
+Weaver
 ============
 
 A Blank(ish) WordPress Theme for starting projects. SASS Based, Responsive, HTML5.
