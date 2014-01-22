@@ -41,7 +41,7 @@
 		<?php endif; ?>	
 			
 			<nav id="main-navigation" class="nav" role="navigation">
-				<?php canvas_nav(); ?>
+				<?php weaver_nav(); ?>
 			</nav>
 			
 		</header>
