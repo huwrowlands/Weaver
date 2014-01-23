@@ -72,7 +72,7 @@ add_filter('login_headertitle', 'custom_login_title');
 
 // 5. Customise Admin Footer Text
 function custom_admin_footer() { ?>	
-	<span id="footer-thankyou">Developed by Huw Rowlands of <a title="Custom Responsive WordPress Website Design" href="http://www.inspiredworx.com" target="_blank">Inspired Worx</a> &middot; &copy; <?php echo date('Y'); ?> Copyright <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>.</span>
+	<span id="footer-thankyou">Developed by <a title="#" href="#" target="_blank">YOUR NAME</a> &middot; &copy; <?php echo date('Y'); ?> Copyright <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>.</span>
 	
 <?php }
 

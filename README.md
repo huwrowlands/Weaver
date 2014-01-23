@@ -1,10 +1,16 @@
 Weaver
 ============
 
-A Blank(ish) WordPress Theme for starting projects. SASS Based, Responsive, HTML5.
+A Blank(ish) WordPress Theme for starting projects. SASS, Responsive, and HTML5.
 
-Built from the ground up, this theme was built for my own uses to have a great base to start new projects with. It's responsive by default using the KUBE CSS grid and UI elements. Some bits may have been used from other sources, possibly from Todd Motto's HTML5Blank theme. (If anybody would like code removed please get in touch.)
+Weaver was put together to make projects easier and quicker to get started. To focus on the design and customisations of each project and not to repeat the same code each time.
+
+Taking inspiration from the brilliant Kube Css framework, using their grid and UI elements. Responsive by default but can easily be altered if fixed-width is required. Built upon SASS (.scss), you could also drop in a custom.css file if you didn't want to setup SASS for your project, and build upon the defaults.
 
 Feel free to use this theme for your own uses.
 
-*NOTE: You may wish to make edits to the customisations.php file to suit.
+I have included a customisations.php file within the library/inc folder for such things as admin customisations. It is turned off by default.
+
+</hr>
+
+Thanks goes out to Todd Motto for his HTML5Blank Theme, Flaunt navigation and Imperavi for thier Kube CSS framework.
