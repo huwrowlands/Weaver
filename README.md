@@ -11,6 +11,6 @@ Feel free to use this theme for your own uses.
 
 I have included a customisations.php file within the library/inc folder for such things as admin customisations. It is turned off by default.
 
-</hr>
+============
 
 Thanks goes out to Todd Motto for his HTML5Blank Theme, Flaunt navigation and Imperavi for thier Kube CSS framework.
