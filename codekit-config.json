@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/assets\/css\/vendor\/wordpress\/login.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/vendor\/wordpress\/login.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/scss\/vendor\/kube\/_kube_buttons.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -25,14 +34,16 @@
       "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ios-ck.js",
       "fileType" : 64
     },
-    "\/sidebar.php" : {
+    "\/screenshot.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/screenshot.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/screenshot.png",
+      "initialSize" : 456021,
+      "fileType" : 8192
     },
     "\/category.php" : {
       "ignoreWasSetByUser" : 0,
@@ -55,6 +66,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/scss\/modules\/_app.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/scss\/modules\/_app.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_app.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/pagination.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -72,18 +95,6 @@
       "inputAbbreviatedPath" : "\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/scss\/modules\/_app.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/scss\/modules\/_app.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_app.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/assets\/includes\/customisations.php" : {
       "ignoreWasSetByUser" : 0,
@@ -103,16 +114,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/screenshot.png" : {
+    "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/screenshot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 456021,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/includes\/conditionizr\/ie8.js" : {
       "ignoreWasSetByUser" : 0,
@@ -156,17 +165,6 @@
       "inputAbbreviatedPath" : "\/tag.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/img\/weaver_logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/weaver_logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/weaver_logo.png",
-      "initialSize" : 5869,
-      "fileType" : 8192
     },
     "\/assets\/scss\/modules\/_breakpoints.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -323,15 +321,6 @@
       "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/retina-ck.js",
       "fileType" : 64
     },
-    "\/tmpl-full-width.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/tmpl-full-width.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/scss\/modules\/_buttons.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -343,6 +332,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_buttons.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/tmpl-full-width.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/tmpl-full-width.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/scss\/mixins\/_setup.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -653,15 +651,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/js\/vendor\/jquery-1.10.2.min.js" : {
+    "\/assets\/includes\/conditionizr\/linux.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/vendor\/jquery-1.10.2.min.js",
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/vendor\/jquery-1.10.2.min-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux-ck.js",
       "fileType" : 64
     },
     "\/assets\/scss\/vendor\/kube\/_kube_reset.scss" : {
@@ -676,16 +674,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/includes\/conditionizr\/linux.js" : {
+    "\/assets\/js\/vendor\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux.js",
+      "inputAbbreviatedPath" : "\/assets\/js\/vendor\/jquery-1.10.2.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/js\/vendor\/jquery-1.10.2.min-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/css\/vendor\/wordpress\/editor-styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/vendor\/wordpress\/editor-styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/assets\/includes\/conditionizr\/ie9.js" : {
       "ignoreWasSetByUser" : 0,
@@ -788,17 +795,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/scss\/vendor\/kube\/_kube_crumbs.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/author.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/scss\/vendor\/kube\/_kube_crumbs.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_kube_crumbs.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/author.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -856,14 +860,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
       "fileType" : 64
     },
-    "\/author.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/assets\/scss\/vendor\/kube\/_kube_crumbs.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/author.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/scss\/vendor\/kube\/_kube_crumbs.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_kube_crumbs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
