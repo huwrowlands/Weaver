@@ -38,6 +38,7 @@
         'winPhone75': ['style', 'script', 'class'],
         'winPhone8': ['style', 'script', 'class']
       }
+      conditionizr.polyfill('//html5shiv.googlecode.com/svn/trunk/html5.js', ['ie6', 'ie7', 'ie8']);
     });
    </script>
 	</head>
