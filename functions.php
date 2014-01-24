@@ -20,7 +20,7 @@
 
 // Load any external files you have here
 
-//require_once('assets/inc/customisations.php');
+require_once('assets/includes/customisations.php');
 
 /*------------------------------------*\
 	Add Theme Support
@@ -363,7 +363,7 @@ add_action('init', 'weaver_pagination'); // Add our Pagination
 
 // Editor Styles
 function weaver_add_editor_styles() {
-    add_editor_style( '/assets/css/editor-styles.css' );
+    add_editor_style( '/assets/css/vendor/wordpress/editor-styles.css' );
 }
 add_action( 'init', 'weaver_add_editor_styles' );
 

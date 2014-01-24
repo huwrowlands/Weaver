@@ -47,7 +47,7 @@ add_action('wp_dashboard_setup', 'add_custom_dashboard_widget');
 
 // 3. calling your own login css so you can style it
 function custom_login_css() {
-	echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/assets/css/login.css">';
+	echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/assets/css/vendor/wordpress/login.css">';
 }
 
 // changing the logo link from wordpress.org to your site
