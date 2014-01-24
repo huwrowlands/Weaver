@@ -106,10 +106,10 @@ function weaver_scripts() {
 		wp_deregister_script( 'jQuery' );
 		wp_register_script( 'jQuery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2', false );
 		wp_enqueue_script( 'jQuery' );
-	
-		wp_register_script( 'conditionizr', 'http://cdnjs.cloudflare.com/ajax/libs/conditionizr.js/2.2.0/conditionizr.min.js', false, '2.2.0', false );
-		wp_enqueue_script( 'conditionizr' );
-	
+
+    	wp_register_script('conditionizr', 'http://cdnjs.cloudflare.com/ajax/libs/conditionizr.js/4.0.0/conditionizr.js', array(), '4.0.0'); // Conditionizr
+        wp_enqueue_script('conditionizr'); // Enqueue it!
+
 		wp_register_script( 'modernizr', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.0/modernizr.min.js', false, '2.7.0', false );
 		wp_enqueue_script( 'modernizr' );
 

@@ -7,19 +7,42 @@
 		
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 		
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+		
 		<link href="<?php echo get_template_directory_uri(); ?>/library/img/icons/favicon.ico" rel="shortcut icon">
 		
 		<?php wp_head(); ?>	
 		<script>
-		!function(){
-			// configure legacy, retina, touch requirements @ conditionizr.com
-			conditionizr()
-		}()
-		</script>
+    conditionizr.config({
+      assets: '<?php echo get_template_directory_uri(); ?>/library/assets/conditionizr',
+      tests: {
+        'chrome': ['style', 'script', 'class'],
+        'chromium': ['style', 'script', 'class'],
+        'firefox': ['style', 'script', 'class'],
+        'ie6': ['style', 'script', 'class'],
+        'ie7': ['style', 'script', 'class'],
+        'ie8': ['style', 'script', 'class'],
+        'ie9': ['style', 'script', 'class'],
+        'ie10': ['style', 'script', 'class'],
+        'ie10touch': ['style', 'script', 'class'],
+        'ie11': ['style', 'script', 'class'],
+        'ios': ['style', 'script', 'class'],
+        'linux': ['style', 'script', 'class'],
+        'mac': ['style', 'script', 'class'],
+        'opera': ['style', 'script', 'class'],
+        'retina': ['style', 'script', 'class'],
+        'safari': ['style', 'script', 'class'],
+        'touch': ['style', 'script', 'class'],
+        'windows': ['style', 'script', 'class'],
+        'winPhone7': ['style', 'script', 'class'],
+        'winPhone75': ['style', 'script', 'class'],
+        'winPhone8': ['style', 'script', 'class']
+      }
+    });
+   </script>
 	</head>
 	
 	<body <?php body_class(); ?>>
-	
 	<div class="units-container">
 	
 		<header id="masthead" role="banner">
