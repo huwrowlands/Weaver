@@ -14,7 +14,7 @@
 		<?php wp_head(); ?>	
 		<script>
     conditionizr.config({
-      assets: '<?php echo get_template_directory_uri(); ?>/library/assets/conditionizr',
+      assets: '<?php echo get_template_directory_uri(); ?>/library/conditionizr',
       tests: {
         'chrome': ['style', 'script', 'class'],
         'chromium': ['style', 'script', 'class'],
