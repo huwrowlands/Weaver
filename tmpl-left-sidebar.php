@@ -1,4 +1,4 @@
-<?php /* Template Name: Full Width */ ?>
+<?php /* Template Name: Left Sidebar */ ?>
 
 <?php get_header(); ?>
 
