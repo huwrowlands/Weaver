@@ -36,7 +36,7 @@ function custom_dashboard_widget() {
 	echo '<p>Custom Dashboard Widget - Great for adding a custom message and PDF Guide</p>';
 	echo '<p><a target="_blank" title="Website Guide" href="';
 	echo get_template_directory_uri();
-	echo '/library/inc/guide.pdf" class="button">Download Guide</a></p>';
+	echo '/assets/includes/guide.pdf" class="button">Download Guide</a></p>';
 }
 function add_custom_dashboard_widget() {
 	wp_add_dashboard_widget('custom_dashboard_widget', 'Website Guide', 'custom_dashboard_widget');
@@ -47,7 +47,7 @@ add_action('wp_dashboard_setup', 'add_custom_dashboard_widget');
 
 // 3. calling your own login css so you can style it
 function custom_login_css() {
-	echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/library/css/login.css">';
+	echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/assets/css/login.css">';
 }
 
 // changing the logo link from wordpress.org to your site

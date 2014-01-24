@@ -2,13 +2,13 @@
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "library/css"
-sass_dir = "library/scss"
-images_dir = "library/img"
-javascripts_dir = "library/js"
-fonts_dir = "library/fonts"
+css_dir = "assets/css"
+sass_dir = "assets/scss"
+images_dir = "assets/img"
+javascripts_dir = "assets/js"
+fonts_dir = "assets/fonts"
 
-output_style = :nested
+output_style = :compressed
 environment = :development
 
 # To enable relative paths to assets via compass helper functions. Uncomment:

@@ -134,7 +134,7 @@ add_action( 'wp_enqueue_scripts', 'weaver_scripts' );
 // Register Style
 function weaver_styles() {
 
-	wp_register_style( 'styles', get_template_directory_uri() . '/assets/css/styles.css', false, '0.0.1', 'all' );
+	wp_register_style( 'styles', get_template_directory_uri() . '/assets/css/style.css', false, '0.0.1', 'all' );
 	wp_enqueue_style( 'styles' );
 
 }
