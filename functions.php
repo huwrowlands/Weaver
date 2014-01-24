@@ -20,7 +20,7 @@
 
 // Load any external files you have here
 
-//require_once('library/inc/customisations.php');
+//require_once('assets/inc/customisations.php');
 
 /*------------------------------------*\
 	Add Theme Support
@@ -86,7 +86,7 @@ function weaver_theme_support()  {
 	add_theme_support( 'html5', $markup );	
 
 	// Add theme support for Translation
-	//load_theme_textdomain( 'weaver', get_template_directory() . '/library/languages' );	
+	//load_theme_textdomain( 'weaver', get_template_directory() . '/assets/languages' );	
 }
 
 // Hook into the 'after_setup_theme' action
@@ -113,10 +113,10 @@ function weaver_scripts() {
 		wp_register_script( 'modernizr', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.0/modernizr.min.js', false, '2.7.0', false );
 		wp_enqueue_script( 'modernizr' );
 
-	  wp_register_script('flauntJS', get_template_directory_uri() . '/library/js/flaunt-ck.js', array(), '1.0.0', true); // Custom scripts
+	  wp_register_script('flauntJS', get_template_directory_uri() . '/assets/js/flaunt-ck.js', array(), '1.0.0', true); // Custom scripts
 	  wp_enqueue_script('flauntJS'); // Enqueue it!
 	  	
-	  wp_register_script('weaver_scripts', get_template_directory_uri() . '/library/js/scripts-ck.js', array(), '1.0.0', true); // Custom scripts
+	  wp_register_script('weaver_scripts', get_template_directory_uri() . '/assets/js/scripts-ck.js', array(), '1.0.0', true); // Custom scripts
 	  wp_enqueue_script('weaver_scripts'); // Enqueue it!
   
   }
@@ -134,7 +134,7 @@ add_action( 'wp_enqueue_scripts', 'weaver_scripts' );
 // Register Style
 function weaver_styles() {
 
-	wp_register_style( 'styles', get_template_directory_uri() . '/library/css/styles.css', false, '0.0.1', 'all' );
+	wp_register_style( 'styles', get_template_directory_uri() . '/assets/css/styles.css', false, '0.0.1', 'all' );
 	wp_enqueue_style( 'styles' );
 
 }
@@ -363,7 +363,7 @@ add_action('init', 'weaver_pagination'); // Add our Pagination
 
 // Editor Styles
 function weaver_add_editor_styles() {
-    add_editor_style( '/library/css/editor-styles.css' );
+    add_editor_style( '/assets/css/editor-styles.css' );
 }
 add_action( 'init', 'weaver_add_editor_styles' );
 

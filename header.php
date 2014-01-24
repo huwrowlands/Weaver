@@ -9,12 +9,12 @@
 		
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
 		
-		<link href="<?php echo get_template_directory_uri(); ?>/library/img/icons/favicon.ico" rel="shortcut icon">
+		<link href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" rel="shortcut icon">
 		
 		<?php wp_head(); ?>	
 		<script>
     conditionizr.config({
-      assets: '<?php echo get_template_directory_uri(); ?>/library/conditionizr',
+      assets: '<?php echo get_template_directory_uri(); ?>/assets/conditionizr',
       tests: {
         'chrome': ['style', 'script', 'class'],
         'chromium': ['style', 'script', 'class'],

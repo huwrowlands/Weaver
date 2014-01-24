@@ -20,20 +20,3 @@ $max-width: 960px; //Define site maximum width here.
 
 $baseFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
 $headingsFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-
-/* Breakpoints - Amend on a per project basis*/
-
-@mixin breakpoint($point) {
-  @if $point == papa-bear {
-    @media screen and (min-width: 1023px) { @content; }
-  }
-  @if $point == mama-bear {
-    @media screen and (min-width: 959px) { @content; }
-  }
-  @else if $point == baby-bear {
-    @media screen and (min-width: 767px)  { @content; }
-  }
-  @else if $point == tiny-bear {
-    @media screen and (min-width: 420px)  { @content; }
-  }
-}

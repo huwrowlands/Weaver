@@ -86,8 +86,8 @@ a img.alignleft {
 
 .commentlist .author-avatar {
 	position: absolute;
-	top: $gutter/2;
-	left: $gutter/2;
+	top: 10px;
+	left: 10px;
 }
 
 .commentlist .vcard cite.fn {
@@ -124,14 +124,14 @@ a img.alignleft {
 }
 
 .commentlist li.comment {
-	padding: $gutter/2;
+	padding: 10px;
 	list-style-type: none;
 	position: relative;
 }
 
 .commentlist .comment-body {
-	margin-bottom: $gutter/2;
-	padding-bottom: $gutter/2;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .commentlist li.comment .comment-text {
@@ -164,7 +164,7 @@ a img.alignleft {
 .widget {
 	list-style-type: none;
 	margin-left: 0;
-	margin-bottom: $gutter;
+	margin-bottom: 20px;
 	word-wrap: break-word;
 }
 
