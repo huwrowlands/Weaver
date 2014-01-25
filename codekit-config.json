@@ -87,12 +87,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/category.php" : {
+    "\/404.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/category.php",
+      "inputAbbreviatedPath" : "\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -114,12 +114,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/404.php" : {
+    "\/category.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.php",
+      "inputAbbreviatedPath" : "\/category.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -201,15 +201,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/tmpl-left-sidebar.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/tmpl-left-sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/scss\/modules\/_vars.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -221,6 +212,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_vars.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/tmpl-left-sidebar.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/tmpl-left-sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/scss\/vendor\/wordpress\/login.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -269,6 +269,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/js\/flaunt.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/flaunt.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/flaunt-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/scss\/vendor\/kube\/_kube_typo.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -280,17 +291,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_kube_typo.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/js\/flaunt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/flaunt.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/flaunt-ck.js",
-      "fileType" : 64
     },
     "\/assets\/js\/flaunt-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -408,17 +408,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/includes\/conditionizr\/winPhone8.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/winPhone8.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/winPhone8-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/scss\/modules\/_typography.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -430,6 +419,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/includes\/conditionizr\/winPhone8.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/winPhone8.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/winPhone8-ck.js",
+      "fileType" : 64
     },
     "\/assets\/scss\/vendor\/kube\/_kube_grid.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -512,17 +512,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/includes\/conditionizr\/ie7.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie7.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie7-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/scss\/vendor\/kube\/_kube_pagination.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -534,6 +523,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_kube_pagination.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/includes\/conditionizr\/ie7.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie7.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie7-ck.js",
+      "fileType" : 64
     },
     "\/assets\/includes\/conditionizr\/winPhone75.js" : {
       "ignoreWasSetByUser" : 0,
@@ -631,15 +631,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/includes\/conditionizr\/ie10.js" : {
+    "\/assets\/includes\/conditionizr\/chrome.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10.js",
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome-ck.js",
       "fileType" : 64
     },
     "\/assets\/scss\/vendor\/_woocommerce.scss" : {
@@ -686,17 +686,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/includes\/conditionizr\/chrome.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/includes\/conditionizr\/linux.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -706,6 +695,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/includes\/conditionizr\/ie10.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/vendor\/wordpress\/editor-styles.css" : {

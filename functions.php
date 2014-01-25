@@ -385,6 +385,7 @@ add_action( 'init', 'weaver_add_editor_styles' );
 	
 	add_theme_support( 'woocommerce' );
 
+	//define('WOOCOMMERCE_USE_CSS', false);
 
 /**
  * Filter wp_link_pages to do both next and number (Inner Page Pagination)
