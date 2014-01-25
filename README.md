@@ -7,6 +7,8 @@ Weaver was put together to make projects easier and quicker to get started. To f
 
 Taking inspiration from the brilliant Kube Css framework, using their grid and UI elements. Responsive by default but can easily be altered if fixed-width is required. Built upon SASS (.scss), you could also drop in a custom.css file if you didn't want to setup SASS for your project, and build upon the defaults.
 
+This theme also comes with Woocommerce integration.
+
 Feel free to use this theme for your own uses.
 
 I have included a customisations.php file within the library/inc folder for such things as admin customisations. It is turned off by default.
