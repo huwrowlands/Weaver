@@ -16,8 +16,7 @@
 //----------------------------------*/
 
 @import 'vendor/wordpress/_wp.scss'; //WordPress
-//@import 'vendor/wordpress/login.scss'; // WordPress Login Styles
-//@import 'vendor/wordpress/editor-styles.scss'; // WordPress Editor Styles
+@import 'vendor/_woocommerce.scss'; //WooCommerce
 
 //----------------------------------*\
 // VENDOR - Kube
