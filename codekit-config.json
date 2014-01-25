@@ -569,18 +569,6 @@
       "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10touch-ck.js",
       "fileType" : 64
     },
-    "\/assets\/scss\/modules\/_defaults.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/scss\/modules\/_defaults.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_defaults.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/scss\/vendor\/kube\/_kube_images.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -590,6 +578,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/_kube_images.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/scss\/modules\/_defaults.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/scss\/modules\/_defaults.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -631,15 +631,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/includes\/conditionizr\/ie10.js" : {
+    "\/assets\/includes\/conditionizr\/chrome.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10.js",
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome-ck.js",
       "fileType" : 64
     },
     "\/assets\/scss\/vendor\/_woocommerce.scss" : {
@@ -662,17 +662,6 @@
       "inputAbbreviatedPath" : "\/page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/includes\/conditionizr\/linux.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux-ck.js",
-      "fileType" : 64
     },
     "\/assets\/js\/vendor\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -697,15 +686,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/includes\/conditionizr\/chrome.js" : {
+    "\/assets\/includes\/conditionizr\/linux.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome.js",
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/chrome-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/linux-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/includes\/conditionizr\/ie10.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/includes\/conditionizr\/ie10-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/vendor\/wordpress\/editor-styles.css" : {
