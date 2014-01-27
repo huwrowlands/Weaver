@@ -151,8 +151,7 @@ add_action( 'wp_enqueue_scripts', 'weaver_styles' );
 function weaver_navigation_menus() {
 
 	$locations = array(
-		'header_menu' => __( 'Header Menu', 'weaver' ),
-		//'footer_menu' => __( 'Footer Menu', 'weaver' ),
+		'primary_menu' => __( 'Primary Menu', 'weaver' ),
 	);
 	register_nav_menus( $locations );
 
