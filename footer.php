@@ -10,6 +10,11 @@
     ga('create', 'UA-XXXXXXXX-XX');
     ga('send', 'pageview');
     </script>
-
+		<script>		
+				Fluidvids.init({
+					selector: 'iframe',
+					players: ['www.youtube.com', 'player.vimeo.com']
+				});
+		</script>
 	</body>
 </html>
