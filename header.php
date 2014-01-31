@@ -11,7 +11,6 @@
 		
 		<link href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" rel="shortcut icon">
 		
-		<?php wp_head(); ?>	
 		<script>
     conditionizr.config({
       assets: '<?php echo get_template_directory_uri(); ?>/assets/conditionizr',
@@ -41,6 +40,7 @@
     });
     conditionizr.polyfill('//html5shiv.googlecode.com/svn/trunk/html5.js', ['ie6', 'ie7', 'ie8']);
    </script>
+	 <?php wp_head(); ?>	
 	</head>
 	
 	<body <?php body_class(); ?>>

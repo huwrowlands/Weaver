@@ -1,7 +1,5 @@
 				</div>		
 
-		<?php wp_footer(); ?>
-
     <script>
     (function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
     (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
@@ -16,5 +14,7 @@
 					players: ['www.youtube.com', 'player.vimeo.com']
 				});
 		</script>
+		
+		<?php wp_footer(); ?>
 	</body>
 </html>

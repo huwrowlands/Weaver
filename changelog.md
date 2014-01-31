@@ -1,5 +1,9 @@
 ### Weaver Changelog
 
+## 1.0.1 (31 January, 2014)
+
+* Moved wp_head and wp_footer calls to correct positions
+
 ## 1.0.0 (28 January, 2014)
 
 * Updated [fluidvids](https://github.com/toddmotto/fluidvids) to version 2.1.0
