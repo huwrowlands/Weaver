@@ -10,36 +10,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
 		
 		<link href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" rel="shortcut icon">
-		
-		<script>
-    conditionizr.config({
-      assets: '<?php echo get_template_directory_uri(); ?>/assets/conditionizr',
-      tests: {
-        'chrome': ['style', 'script', 'class'],
-        'chromium': ['style', 'script', 'class'],
-        'firefox': ['style', 'script', 'class'],
-        'ie6': ['style', 'script', 'class'],
-        'ie7': ['style', 'script', 'class'],
-        'ie8': ['style', 'script', 'class'],
-        'ie9': ['style', 'script', 'class'],
-        'ie10': ['style', 'script', 'class'],
-        'ie10touch': ['style', 'script', 'class'],
-        'ie11': ['style', 'script', 'class'],
-        'ios': ['style', 'script', 'class'],
-        'linux': ['style', 'script', 'class'],
-        'mac': ['style', 'script', 'class'],
-        'opera': ['style', 'script', 'class'],
-        'retina': ['style', 'script', 'class'],
-        'safari': ['style', 'script', 'class'],
-        'touch': ['style', 'script', 'class'],
-        'windows': ['style', 'script', 'class'],
-        'winPhone7': ['style', 'script', 'class'],
-        'winPhone75': ['style', 'script', 'class'],
-        'winPhone8': ['style', 'script', 'class']
-      }
-    });
-    conditionizr.polyfill('//html5shiv.googlecode.com/svn/trunk/html5.js', ['ie6', 'ie7', 'ie8']);
-   </script>
+
 	 <?php wp_head(); ?>	
 	</head>
 	
@@ -64,8 +35,18 @@
 		</div>
 		<?php endif; ?>	
 			
-			<nav id="main-navigation" class="nav" role="navigation">
-				<?php weaver_nav(); ?>
-			</nav>
+				<nav id="main-navigation" role="navigation">
+					<?php if ( has_nav_menu( 'primary_menu' ) ) { ?>
+						<div class="nav">
+							<?php weaver_nav(); ?>
+						</div>
+					<?php } else { ?>
+						<div class="nav">
+							<ul class="nav-list">
+								<?php wp_list_pages('title_li='); ?>
+							</ul>
+						</div>
+					<?php } ?>
+				</nav>
 			
 		</header>

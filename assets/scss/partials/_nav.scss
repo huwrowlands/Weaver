@@ -90,17 +90,21 @@ $fl_border_2: 1px solid #333;
 		-webkit-border-radius: 5px 5px 0 0;
 		-moz-border-radius: 5px 5px 0 0;
 	}
-	.nav ul li:hover .nav .sub-menu {
+	.nav ul li:hover .nav .sub-menu,
+	.nav ul li:hover .nav .children {
 		display: none;
 	}
-	.nav .sub-menu {
+	.nav .sub-menu,
+	.nav .children {
 		position: static;
 		width: 100%;
 	}
-	.nav .sub-menu li {
+	.nav .sub-menu li,
+	.nav .children li {
 		width: 100%;
 	}
-	.nav .sub-menu .sub-menu {
+	.nav .sub-menu .sub-menu,
+	.nav .children .children {
 		position: static;
 		top: 0;
 		left: 0;
@@ -141,38 +145,45 @@ $fl_border_2: 1px solid #333;
 	background:$fl_bg_hover_state;
 }
 
-.nav ul li:hover > .sub-menu {
+.nav ul li:hover > .sub-menu,
+.nav ul li:hover > .children {
 	display: block;
 }
 
 /* Navigation Sub Menu (sub-menu) */
 
-.nav .sub-menu {
+.nav .sub-menu,
+.nav .children {
 	display: none;
 	position: absolute;
 	left: 0;
 	z-index: 999;
 }
 
-.nav .sub-menu li a {
+.nav .sub-menu li a,
+.nav .children li a {
 	background: $fl_submenu_bg_normal_state;
 	border-bottom: $fl_border_1;
 	display: block;
 	padding: 15px;	
 }
 
-.nav .sub-menu a:hover {
+.nav .sub-menu a:hover,
+.nav .children a:hover {
 	background: $fl_submenu_bg_hover_state;
 }
 
 @media only screen and (min-width: 768px) {
 
 	.nav .sub-menu,
-	.nav .sub-menu li {
+	.nav .sub-menu li,
+	.nav .children,
+	.nav .children li {
 		width: 200px;
 	}	
 
-	.nav .sub-menu .sub-menu {
+	.nav .sub-menu .sub-menu,
+	.nav .children .children {
 		position: absolute;
 		top: 0;
 		left: 100%;

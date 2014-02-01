@@ -1,5 +1,10 @@
 ### Weaver Changelog
 
+## 1.0.2 (1 February, 2014)
+
+* Created Custom Menu fallback and styling
+* Updated Conditionizr and Fluidvids script calls
+
 ## 1.0.1 (31 January, 2014)
 
 * Moved wp_head and wp_footer calls to correct positions
