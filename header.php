@@ -37,9 +37,7 @@
 			
 				<nav id="main-navigation" role="navigation">
 					<?php if ( has_nav_menu( 'primary_menu' ) ) { ?>
-						<div class="nav">
 							<?php weaver_nav(); ?>
-						</div>
 					<?php } else { ?>
 						<div class="nav">
 							<ul class="nav-list">
