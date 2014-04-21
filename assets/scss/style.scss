@@ -10,6 +10,7 @@
 //----------------------------------*/
 
 @import 'mixins/_setup.scss';
+@import 'modules/_breakpoints.scss';
 
 //----------------------------------*\
 // VENDOR
@@ -71,5 +72,4 @@
 @import 'modules/_app.scss';
 
 // Enhancement modules
-@import 'modules/_breakpoints.scss';
 @import 'modules/_print.scss';
