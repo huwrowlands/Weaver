@@ -16,3 +16,9 @@ I have included a customisations.php file within the library/inc folder for such
 ============
 
 Thanks goes out to Todd Motto for his HTML5Blank Theme (for inspiration), Flaunt navigation, Conditionizr script and Imperavi for thier Kube CSS framework.
+
+============
+
+TO DO:
+
+Clean up SCSS files and structure.
